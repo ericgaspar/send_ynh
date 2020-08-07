@@ -45,7 +45,7 @@ Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/confi
 ## Liens
 
  * Signaler un bug : https://github.com/YunoHost-Apps/kiwiirc_ynh/issues
- * Dépôt de l'application principale : https://github.com/kiwiirc/kiwiirc
+ * Dépôt de l'application principale : https://github.com/mozilla/send
  * Site web YunoHost : https://yunohost.org/
 
 ---

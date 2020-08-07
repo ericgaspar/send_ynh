@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/kiwiirc/kiwiirc/archive/v1.5.0.tar.gz
-SOURCE_SUM=1a619fdac154fb79402f8acd2e447a8e92e3b2107109ccd7629fa0fb57c0c183
+SOURCE_URL=https://github.com/mozilla/send/archive/v3.0.22.tar.gz
+SOURCE_SUM=3a850f4b17a69bd2589c4d7b769a77d2455957b2dcf7f572a9a141c80a47b1b7
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true

@@ -44,7 +44,7 @@ HedgeDoc is a real-time collaborative word processing web service. It uses Markd
 ## Links
 
  * Report a bug: https://github.com/YunoHost-Apps/kiwiirc_ynh/issues
- * Upstream app repository: https://github.com/kiwiirc/kiwiirc
+ * Upstream app repository: https://github.com/mozilla/send
  * YunoHost website: https://yunohost.org/
 
 ---
