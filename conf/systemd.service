@@ -17,3 +17,19 @@ Restart=always
 
 [Install]
 WantedBy=multi-user.target
+
+
+
+[Unit]
+Description=drop
+After=network.target
+
+[Service]
+Type=simple
+User=__APP__
+WorkingDirectory=/srv/drop
+ExecStart=npm run prod
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

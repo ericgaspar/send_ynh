@@ -1,17 +1,17 @@
-# Kiwiirc for YunoHost
+# Send for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/hedgedoc.svg)](https://dash.yunohost.org/appci/app/hedgedoc) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.maintain.svg)  
-[![Install Kiwiirc with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=hedgedoc)
+[![Integration level](https://dash.yunohost.org/integration/send.svg)](https://dash.yunohost.org/appci/app/send) ![](https://ci-apps.yunohost.org/ci/badges/send.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/send.maintain.svg)  
+[![Install Send with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=send)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install Kiwiirc quickly and simply on a YunoHost server.  
+> *This package allows you to install Send quickly and simply on a YunoHost server.  
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
 HedgeDoc is a real-time collaborative word processing web service. It uses Markdown language.
 
-**Shipped version:** 1.6.0
+**Shipped version:** 3.0.22
 
 ## Screenshots
 
@@ -38,12 +38,12 @@ HedgeDoc is a real-time collaborative word processing web service. It uses Markd
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/kiwiirc%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/kiwiirc/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/kiwiirc%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/kiwiirc/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/send%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/send/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/send%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/send/)
 
 ## Links
 
- * Report a bug: https://github.com/YunoHost-Apps/kiwiirc_ynh/issues
+ * Report a bug: https://github.com/YunoHost-Apps/send_ynh/issues
  * Upstream app repository: https://github.com/mozilla/send
  * YunoHost website: https://yunohost.org/
 
@@ -51,11 +51,11 @@ HedgeDoc is a real-time collaborative word processing web service. It uses Markd
 
 ## Developer info
 
-Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/kiwiirc_ynh/tree/testing).
+Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/send_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/kiwiirc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/send_ynh/tree/testing --debug
 or
-sudo yunohost app upgrade kiwiirc -u https://github.com/YunoHost-Apps/kiwiirc_ynh/tree/testing --debug
+sudo yunohost app upgrade send -u https://github.com/YunoHost-Apps/send_ynh/tree/testing --debug
 ```

@@ -1,7 +1,7 @@
-# Kiwiirc pour YunoHost
+# Send pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/hedgedoc.svg)](https://dash.yunohost.org/appci/app/hedgedoc) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/hedgedoc.maintain.svg)  
-[![Installer HedgeDoc avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=hedgedoc)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/send.svg)](https://dash.yunohost.org/appci/app/send) ![](https://ci-apps.yunohost.org/ci/badges/send.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/send.maintain.svg)  
+[![Installer HedgeDoc avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=send)
 
 *[Read this readme in english.](./README.md)* 
 
@@ -11,7 +11,7 @@ Si vous n'avez pas YunoHost, consultez [le guide](https://yunohost.org/#/install
 ## Vue d'ensemble
 HedgeDoc est un service web de traitement de texte collaboratif en temps réel. Il utilise le langage Markdown.
 
-**Version incluse :** 1.6.0
+**Version incluse :** 3.0.22
 
 ## Captures d'écran
 
@@ -39,8 +39,8 @@ Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/confi
 
 #### Architectures supportées
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/kiwiirc%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/kiwiirc/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/kiwiirc%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/kiwiirc/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/send%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/send/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/send%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/send/)
 
 ## Liens
 
@@ -52,11 +52,11 @@ Vous pouvez configurer HedgeDoc en modifiant le fichier `/var/www/hedgedoc/confi
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/kiwiirc_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/send_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/kiwiirc_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/send_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade kiwiirc -u https://github.com/YunoHost-Apps/kiwiirc_ynh/tree/testing --debug
+sudo yunohost app upgrade send -u https://github.com/YunoHost-Apps/send_ynh/tree/testing --debug
 ```
