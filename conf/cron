@@ -1,2 +1,2 @@
 # Suppression des fichiers expirés (tous les jours à 00h30).
-30 0 * * * root /usr/bin/find /var/drop/files/ -mtime +5 -delete >> /var/log/drop.chapril.org/dropchaprilorg_purge.log 2>&1
+30 0 * * * root /usr/bin/send /var/drop/files/ -mtime +5 -delete >> /var/log/drop.chapril.org/dropchaprilorg_purge.log 2>&1

@@ -1,34 +1,14 @@
 [Unit]
-Description=Kiwi web irc client
-Documentation=https://github.com/hedgedoc/server
-Requires=network.target
-After=network.target
-
-[Service]
-Type=forking
-User=__APP__
-Group=__APP__
-WorkingDirectory=__FINALPATH__
-Environment="PATH=__ENV_PATH__"
-Environment="NODE_ENV=production"
-#ExecStart=__YNH_NPM__ start
-ExecStart=/usr/bin/yarn dev
-Restart=always
-
-[Install]
-WantedBy=multi-user.target
-
-
-
-[Unit]
 Description=drop
 After=network.target
 
 [Service]
 Type=simple
 User=__APP__
-WorkingDirectory=/srv/drop
-ExecStart=npm run prod
+WorkingDirectory=__FINALPATH__
+Environment="NODE_ENV=production"
+Environment="__YNH_NODE_LOAD_PATH__"
+ExecStart=__YNH_NPM__ run prod
 Restart=always
 
 [Install]
