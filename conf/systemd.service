@@ -5,6 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=__APP__
+Group=__APP__
 WorkingDirectory=__FINALPATH__
 Environment="NODE_ENV=production"
 Environment="__YNH_NODE_LOAD_PATH__"
