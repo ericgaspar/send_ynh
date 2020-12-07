@@ -107,8 +107,8 @@ ynh_script_progression --message="Building $app... (this will take some time and
 
 pushd "$final_path" || ynh_die
 	ynh_use_nodejs
-	ynh_exec_as $app env "$ynh_node_load_PATH" install
-	ynh_exec_as $app env "$ynh_node_load_PATH" run build
+	ynh_exec_as $app npm install
+	ynh_exec_as $app npm run build
 popd || ynh_die
 
 #=================================================
@@ -154,7 +154,7 @@ chown -R $app: $final_path
 #=================================================
 ynh_script_progression --message="Integrating service in YunoHost..."
 
-yunohost service add $app --description="Collaborative Markdown notes" --log="/var/log/$app/$app.log"
+yunohost service add $app --description="Simple, private file sharing" --log="/var/log/$app/$app.log"
 
 #=================================================
 # START SYSTEMD SERVICE
